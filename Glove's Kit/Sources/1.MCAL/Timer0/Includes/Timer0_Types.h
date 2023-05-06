@@ -1,0 +1,20 @@
+/*
+ * Timer0_Types.h
+ *
+ *  Created on: 14 Sep 2022
+ *      Author: yabul
+ */
+
+#ifndef SOURCES_1_MCAL_TIMER0_INCLUDES_TIMER0_TYPES_H_
+#define SOURCES_1_MCAL_TIMER0_INCLUDES_TIMER0_TYPES_H_
+
+typedef enum
+{
+	CLOCK_NO_PRESCALER,		//Clock/No.
+	CLOCK_8_PRESCALER,		//Clock/8
+	CLOCK_64_PRESCALER,		//Clock/64
+	CLOCK_256_PRESCALER,	//Clock/256
+	CLOCK_1024_PRESCALER	//Clock/1024
+}Timer0_PRESCALER_T;
+
+#endif /* SOURCES_1_MCAL_TIMER0_INCLUDES_TIMER0_TYPES_H_ */
